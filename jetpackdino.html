@@ -6,7 +6,9 @@
 <iframe src="https://scratch.mit.edu/projects/944287456/embed" allowtransparency="true" width="885" height="802" frameborder="0" scrolling="no" allowfullscreen id="scratchFrame"></iframe>
 <script type="text/javascript">
     function makeFrameBigger(){
-       document.getElementById("scratchFrame").width += 5;
+        let scratchFrame = document.getElementById("scratchFrame");
+        scratchFrame.width = scratchFrame.width + 5;
+        scratchFrame.height = scratchFrame.height + 5;
     }
 </script>
 <button onclick="makeFrameBigger()">Make Frame Bigger</button>
