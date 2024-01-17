@@ -3,12 +3,12 @@
 <p>related games</p>
 <p><a href="dinogame.html">click here to play the dino game</a></p>
 <p><a href="jetpackadventure.html">click here to play jetpack adventure</a></p>
-<iframe src="https://scratch.mit.edu/projects/944287456/embed" allowtransparency="true" width="885" height="802" frameborder="0" scrolling="no" allowfullscreen id="scratchFrame"></iframe>
 <script type="text/javascript">
-    function makeFrameBigger(){
+    function makeFrameBiggerBy(increment){
         let scratchFrame = document.getElementById("scratchFrame");
-        scratchFrame.width = parseInt( scratchFrame.width ) + 5;
-        scratchFrame.height = parseInt( scratchFrame.height ) + 5;
+        scratchFrame.width = parseInt( scratchFrame.width ) + increment;
+        scratchFrame.height = parseInt( scratchFrame.height ) + increment;
     }
 </script>
-<button onclick="makeFrameBigger()">Make Frame Bigger</button>
+<button onclick="makeFrameBigger(5)">Make game Bigger</button>
+<iframe src="https://scratch.mit.edu/projects/944287456/embed" allowtransparency="true" width="885" height="802" frameborder="0" scrolling="no" allowfullscreen id="scratchFrame"></iframe>
