@@ -7,8 +7,8 @@
 <script type="text/javascript">
     function makeFrameBigger(){
         let scratchFrame = document.getElementById("scratchFrame");
-        scratchFrame.width = scratchFrame.width + 5;
-        scratchFrame.height = scratchFrame.height + 5;
+        scratchFrame.width = parseInt( scratchFrame.width ) + 5;
+        scratchFrame.height = parseInt( scratchFrame.height ) + 5;
     }
 </script>
 <button onclick="makeFrameBigger()">Make Frame Bigger</button>
