@@ -1,0 +1,9 @@
+<script type="text/javascript">
+    function makeFrameBiggerBy(increment){
+        let scratchFrame = document.getElementById("scratchFrame");
+        scratchFrame.width = parseInt( scratchFrame.width ) + increment;
+        scratchFrame.height = parseInt( scratchFrame.height ) + increment;
+    }
+</script>
+<p><button onclick="makeFrameBiggerBy(20)">Make game Bigger</button></p>
+<p><button onclick="makeFrameBiggerBy(-20)">Make game smaller</button></p>
