@@ -4,3 +4,10 @@ Searching for HTML documentation:
 https://mdn.io/<search term>
 how to use the github.dev editor
 https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
+
+how to skip pull requests
+make stuff
+'source control' on the far left panel
+type a mesage
+'commit & push'
+wa ha it works
