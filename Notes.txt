@@ -6,6 +6,7 @@ how to use the github.dev editor
 https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
 
 how to skip pull requests
+get in github.dev with the edit drop down menu
 make stuff
 'source control' on the far left panel
 type a mesage
