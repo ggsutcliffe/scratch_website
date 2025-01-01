@@ -2,3 +2,5 @@ Getting Started with HTML:
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
 Searching for HTML documentation:
 https://mdn.io/<search term>
+how to use the github.dev editor
+https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
