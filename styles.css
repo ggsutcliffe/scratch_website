@@ -1,0 +1,28 @@
+/* Light mode styles */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* Toggle button styles (optional) */
+.toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+}
+
+body.dark-mode .toggle-button {
+    background-color: #333;
+    color: white;
+}
