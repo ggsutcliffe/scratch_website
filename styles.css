@@ -37,3 +37,7 @@ iframe {
 .indent {
   text-indent: 2em; /* Adjust the value as needed */
 }
+.clock {
+    font-size: 2em;
+    margin: 20px;
+}
