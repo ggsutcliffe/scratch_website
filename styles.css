@@ -45,3 +45,6 @@ iframe {
     font-size: 2em;
     margin: 20px;
 }
+.clock {
+    font-size: 48px; /* Adjust this value to make the clock bigger */
+}
