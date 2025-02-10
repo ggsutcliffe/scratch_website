@@ -38,7 +38,7 @@ iframe {
   text-indent: 2em; /* Adjust the value as needed */
 }
 .clock {
-    font-size: 2em; /* Adjust this value to make the clock bigger */
+    font-size: 10em; /* Adjust this value to make the clock bigger */
     margin: 20px;
     position: absolute;
     top: 0; /* Position at the top */
