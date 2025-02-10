@@ -41,6 +41,7 @@ iframe {
     font-size: 2em; /* Adjust this value to make the clock bigger */
     margin: 20px;
     position: absolute;
+    top: 0; /* Position at the top */
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, 0); /* Center horizontally */
 }
