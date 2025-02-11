@@ -33,8 +33,7 @@ function updateClock() {
     const ampm = hours >= 12 ? 'PM' : 'AM';
     hours = hours % 12;
     hours = hours ? hours : 12; // the hour '0' should be '12'
-    const formattedHours = hours.toString().padStart(2, '0');
-    clockElement.textContent = `${formattedHours}:${minutes}:${seconds} ${ampm}`;
+    clockElement.textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
 }
 
 setInterval(updateClock, 1000);
