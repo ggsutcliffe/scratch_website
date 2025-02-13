@@ -48,3 +48,10 @@ iframe {
 p {
     font-size: 2em; /* Adjust this value to make the text bigger */
 }
+/* Fixed Back arrow */
+.fixed {
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    cursor: pointer;
+}
