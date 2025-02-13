@@ -51,7 +51,7 @@ p {
 /* Fixed Back arrow */
 .fixed {
     position: fixed;
-    top: 10px;
-    right: 0px;
+    top: 0px;
+    right: 20px;
     cursor: pointer;
 }
